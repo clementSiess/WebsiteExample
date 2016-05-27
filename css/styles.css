@@ -1,0 +1,502 @@
+
+body {
+    position: relative;
+    padding-top: 100px;
+}
+
+.nav{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.brandImageHeader{
+    height: 94px;
+    width: 258px;
+}
+
+.brandImageHeaderSmaller{
+    height: 60px;
+    width: 145px;
+}
+
+.shrinkLogo {
+    position: relative;
+    top: -20px;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.grow {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav.navbar{
+    height: 0px;
+/*    // Animation*/
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    background-image: none;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+#navbar-collapse-1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav .active a {
+    color: #4779AB!important;
+    z-index: 20;
+
+}
+
+#navbar-collapse-1 ul li a:hover{
+    color: #EBE6DE;
+    
+}
+
+
+nav.navbar.shrink {
+    min-height: 85px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(20, 49, 105, 1);
+    padding-top: 10px;
+    font-size: 20px;
+
+
+}
+
+#navbar-collapse-1{
+    width: 100%;
+    text-align: center;
+}
+
+.hoursHeader{
+    display: none;
+}
+
+
+#top{
+    position: relative;
+    top: -100px;
+    left: 0;
+/*    background-image: url('../images/bg_burger.jpg');*/
+    background-image: url('../images/hamburger.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+#logoPage1 {
+    position: relative;
+/*    background-image: url('../images/Hangar54.png');*/
+    height: 100%;
+}
+
+#Hangar54GrillImage{
+    position: relative;
+    width: 60%;
+    padding-top: 30%;
+}
+
+#top p{
+    position: relative;
+    bottom: 0;
+    color: #fff;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+}
+
+#top ul li{
+    list-style-type: none;
+    color: #fff;
+
+}
+
+#top ul li span{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+}
+
+/*About page*/
+#about{
+    position: relative;
+    top: -90px;
+/*    margin-top: 20px;*/
+    height: 110%;
+    background-color: #EBE6DE;
+}
+
+#title{
+    position: relative;
+    top: 20px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    padding-bottom: 20px;
+
+}
+
+h1 span {
+    padding: 0 20px;
+    text-align : center;
+}
+
+h1 {
+    position: relative;
+/*    font-size: 30px;*/
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+h1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: rgba(20, 49, 105, 1);
+}
+h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+#about h1{
+    color: rgba(20, 49, 105, 1);
+
+}
+
+#about h1:before, #about h1:after {
+    background-color: rgba(20, 49, 105, 1);
+
+}
+
+#aboutLeftSide h5{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#aboutLeftSide ul li{
+    list-style-type: none;
+}
+
+
+#aboutLeftSide ul li span{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+}
+
+#aboutLeftSide img{
+    position: relative;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.seeMore, button.btn{
+    position: relative;
+    background-color: rgba(20, 49, 105, 1);
+    border: 1px solid #4779AB;
+    color: #fff !important;
+    margin-bottom: 20px;
+}
+
+
+.seeMore:hover, button.btn:hover,{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+/*Menu Page*/
+#menu{
+    position: relative;
+    top: -80px;
+    height: 1000px;
+    background-image: url('../images/metalBG.jpg');
+    background-position: 0px 0px;
+    color: #000;
+    height: 100%;
+    
+}
+
+#menu h1:before, #menu h1:after {
+    background-color: #000;
+}
+
+#menu h2, #menu h4, #menu h5{
+    text-transform: uppercase;
+}
+
+#menu h2 {
+    border-bottom: 1px solid #000;
+}
+
+#menu h2 span {
+    padding: 0 20px;
+    text-align : center;
+}
+
+#menu .container h2{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+#menu h4{
+    padding-top: 10px;
+}
+
+#menu h5{
+    font-style: italic;
+}
+
+#menu #wings section{
+    border-top: 1px dotted #000;
+}
+
+#menu #shareables #hangarBombs{
+    background-color: rgba(20, 49, 105, 8);
+    border: 15px solid rgba(20, 49, 105, 8);
+
+    color: #fff;
+}
+#menu #shareables #hangarBombs small{
+    color: #fff;
+}
+
+#dottedLine{
+    border-bottom: 1px dotted #000;
+    
+}
+
+
+#menu small{
+    color: #000;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#menu #soups {
+    position: relative;
+    z-index: 20;
+}
+
+#menu #soups h2{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#soupDescription{
+    position: absolute;
+    top: 40px;
+    font-style: italic;
+    font-size: 0.9 rem;
+    
+}
+
+#menu #salads h2{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+#saladDescription{
+    position: absolute;
+    top: 50px;
+    font-style: italic;
+    font-size: 1em;
+    
+}
+
+#commentText{
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+#menu #sandwiches {
+    position: relative;
+    z-index: 20;
+}
+
+#menu #sandwiches h2{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/*#sandwichDescription{*/
+/*    position: absolute;*/
+/*    top: 40px;*/
+/*    font-style: italic;*/
+/*    font-size: 0.9 rem;*/
+/*    */
+/*}*/
+
+/*Contact page*/
+#contact{
+    position: relative;
+    top: -80px;
+    height: 120%;
+    background-color: #fff;
+
+}
+
+#contact h1{
+    color: rgba(20, 49, 105, 1);
+}
+
+#contact h1:before, #contact h1:after {
+    background-color: rgba(20, 49, 105, 1);
+}
+
+#form-submit{
+    background-color: rgba(20, 49, 105, 1);
+    border: 1px solid #4779AB;
+}
+
+#form-submit:hover{
+    border: 1px solid #fff;
+
+}
+
+#success_message{ display: none;}
+
+#human{
+    display: none;
+}
+
+#contact .row {
+    width: 100%;
+}
+
+#map {
+    position: relative;
+    min-width: 250px;
+    min-height: 250px;
+    width: 50%;
+    height: 200px;
+}
+
+.map_container #map{
+    position relative;
+/*    height: 400px;*/
+}
+
+#footer{
+    position: relative;
+    top: 0;
+    height: 85px;
+    color: #fff;
+    background-color: #000;
+    border-top: 2px solid #4779AB;
+    margin-top: 20px;
+}
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px){
+    
+
+    #top ul li{
+        position: relative;
+        padding-bottom: 20px;
+        
+    }
+    
+}
+
+
+/*For smart phones*/
+@media (max-width: 768px) {
+    nav.navbar{
+        height: 100px;
+        background-color: rgba(20, 49, 105, 1);
+    }
+    
+    #navbar-collapse-1 ul li:first-child {
+        display: none;
+    }
+    
+    #navbar-collapse-1{
+        position: relative;
+        top: 50px;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .brandImageHeader{
+        height: 85px;
+        width: 232px;
+    }
+    
+    .hoursHeader{
+        display: block;
+    }
+    
+    
+    #top{
+        display: none;
+    }
+
+
+.collapsing, .in {    background-color: rgba(20, 49, 105, 1);}
+    .collapsing ul li a, .in ul li a {color: #fffaf0!important;}
+    .collapsing ul li a:hover, .in ul li a:hover {font-weight: bold!important;
+        text-decoration: underline!important;
+        -moz-text-decoration-style: wavy; /* Code for Firefox */
+}
+    
+    /* About page */
+    
+    #about{
+        position: relative;
+        top: 0px;
+/*        padding-top: 80px;*/
+    }
+    
+    .accordion-body { background-color: #EBE6DE;}
+
+
+    
+    /*    Menu page*/
+
+    #menu{
+        position: relative;
+        top: 0px;
+/*        padding-top: 80px;*/
+    }
+
+    #soupDescription, #saladDescription{
+    display: none;
+    }
+
+    #map {
+        position: relative;
+        padding: auto;
+        width: 100%;
+    }
+    
+    /*  Contact page*/
+    
+    #contact{
+        position: relative;
+        top: 0px;
+/*        padding-top: 80px;*/
+    }
+}
